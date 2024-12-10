@@ -1,4 +1,5 @@
 A RESTful API built with Flask, SQLite, and JWT for managing users and books in a library system. This project supports user authentication, CRUD operations for books, and user management.
+
 link of the api - https://booksandusers-api.onrender.com    
 
 Below are the end points:
@@ -12,6 +13,7 @@ GET /api/users,
 GET /api/users/<int:id>,
 DELETE /api/users/<int:id>,
 PUT /api/users/<int:id>,
+
 except for get books all other require jwt token.
 place the token in header of postman --- key:x-access-token,value:<token>.
 
